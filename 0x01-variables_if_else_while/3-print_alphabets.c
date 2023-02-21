@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main = Entry point
- * Description: 'print alphabets lowercase and uppercase'
- * Return: always o
- */
+  *main - Entry point
+  *Description: 'print alphabets lowercase and uppercase'
+  *Return: always o
+  */
 int main(void)
 {
 	int n = 97;
