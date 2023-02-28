@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * swap_int - swap variabele value
  * @a:pointera
@@ -5,7 +6,7 @@
  * Return: void
  */
 
-void swap_int(int *, int *b)
+void swap_int(int *a, int *b)
 {
 	*a += *b;
 	*b = *a - *b;
