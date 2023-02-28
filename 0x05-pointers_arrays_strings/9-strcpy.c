@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcp - function that copies the string
+ * _strcpy - function that copies the string
  * @dest: pointer to destination char
  * @src: pointer to source char
  * Return: char
@@ -10,6 +10,7 @@
 char *_strcpy(char *dest, char *src)
 {
 	int i;
+
 	for (i = 0; src[i] != '\0'; i++)
 	{
 		*(dest + i) = *(src + i);
