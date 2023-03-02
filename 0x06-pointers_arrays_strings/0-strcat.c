@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * _strcat - concatenate two strings
+ * *_strcat - concatenate two strings pointed to by @src
  * @dest: input value
  * @src: input value
  * Return: void
