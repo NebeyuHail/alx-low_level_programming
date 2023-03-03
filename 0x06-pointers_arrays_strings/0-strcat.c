@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * strcat - cocatenates two strings
+ * _strcat - cocatenates two strings
  * @dest: a pointer to string one
  * @src: string appended to @dest
  * Return: A pointer to the destination string @dest
  */
-char *strcat(char *dest, const char *src)
+char *_strcat(char *dest, char *src)
 {
 	int index = 0, dest_len = 0;
 
