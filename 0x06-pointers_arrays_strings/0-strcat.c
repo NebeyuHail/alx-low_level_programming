@@ -1,14 +1,12 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * *_strcat - concatenate two strings pointed to by @src
- * @dest: input value
- * @src: input value
- * Return: void
+ * strcat - cocatenates two strings
+ * @dest: a pointer to string one
+ * @src: string appended to @dest
+ * Return: A pointer to the destination string @dest
  */
-
-char *_strcat(char *dest, char *src)
+char *strcat(char *dest, const char *src)
 {
 	int index = 0, dest_len = 0;
 
@@ -17,6 +15,5 @@ char *_strcat(char *dest, char *src)
 
 	for (index = 0; src[index]; index++)
 		dest[dest_len++] = src[index];
-
 	return (dest);
 }
